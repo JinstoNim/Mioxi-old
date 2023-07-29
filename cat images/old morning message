@@ -1,0 +1,81 @@
+ // ( async () => {
+            //     let encode = args.slice(2).join(" ");
+            //     if(!encode) {
+            //         if(encode) return;
+            //     let user = message.author.username
+            //     const chooseArr = ["👍", "👎"]
+            //         let embed = new RichEmbed()
+            //         .setColor("F0FF00")
+            //         .setFooter(message.author.username, message.author.avatarURL)
+            //         .setDescription("Hello, " + user + ", How was your sleep?")
+            //         .setTimestamp();
+            //         const m = await message.channel.send(embed);
+            //         const reacted = await promptMessage(m, message.author, 30, chooseArr);
+            
+            //         const result = await getResult(reacted);
+            //         await m.clearReactions();
+            //         embed
+            //             .setDescription(result)
+            //             .setFooter("Have a great rest of your day!")
+            
+            //             m.edit(embed);
+            //             function getResult(me) {
+            //                 if((me === "👎")) {
+            //                   let  number = 4;
+            //                    let imageNumber = Math.floor(Math.random() * (number - 1 + 1)) + 1;
+            //                     let embed = new Discord.RichEmbed()            
+            //                     .setTitle("The bot pats " + user + " with joy!")
+            //                     .attachFile({attachment: `./pat gifs/${imageNumber}.gif`}).setImage(`attachment://${imageNumber}.gif`)
+            //                     .setColor("F0FF00")
+            //                     .setTimestamp()
+                    
+            //                     message.channel.send(embed)
+            //                 return("Aww, here, take this, ☕")
+            //             } if((me === "👍")) {
+            //                 return ("That is great! Here, lets drink some coffee ☕");
+            //             } else {
+            //                  return("Are you confused about your sleep?")
+            //             }
+                    
+            //         };
+            //     }
+            //     if(encode === "everyone"){
+            //         if(!encode) return;
+            //         let user = message.author.username
+            //     const chooseArr = ["👍", "👎"]
+            //         let embed = new RichEmbed()
+            //         .setColor("F0FF00")
+            //         .setFooter(message.author.username, message.author.avatarURL)
+            //         .setDescription("Hello, " + user + ", How was your sleep?")
+            //         .setTimestamp();
+            //         const m = await message.channel.send(embed);
+            //         const reacted = await promptMessage(m, message.author, 30, chooseArr);
+            
+            //         const result = await getResult(reacted);
+            //         await m.clearReactions();
+            //         embed
+            //             .setDescription(result)
+            //             .setFooter("Have a great rest of your day!")
+            
+            //             m.edit(embed);
+            //             function getResult(me) {
+            //                 if((me === "👎")) {
+            //                   let  number = 4;
+            //                    let imageNumber = Math.floor(Math.random() * (number - 1 + 1)) + 1;
+            //                     let embed = new Discord.RichEmbed()            
+            //                     .setTitle("The bot pats " + user + " with joy!")
+            //                     .attachFile({attachment: `./pat gifs/${imageNumber}.gif`}).setImage(`attachment://${imageNumber}.gif`)
+            //                     .setColor("F0FF00")
+            //                     .setTimestamp()
+                    
+            //                     message.channel.send(embed)
+            //                 return("Aww, here, take this, ☕")
+            //             } if((me === "👍")) {
+            //                 return ("That is great! Here, lets drink some coffee ☕");
+            //             } else {
+            //                  return("Are you confused about your sleep?")
+            //             }
+                    
+            //         };
+            //     }
+            //         })();
